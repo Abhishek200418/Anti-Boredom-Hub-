@@ -1,0 +1,19 @@
+.favorites-container {
+    padding: 40px;
+    background: #f5f7fa;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.favorites-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

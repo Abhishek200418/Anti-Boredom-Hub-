@@ -1,0 +1,23 @@
+.activities-container {
+    padding: 40px;
+    background: #f5f7fa;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.activities-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.activities-form {
+    margin-bottom: 30px;
+}
+
+.activities-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

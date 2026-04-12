@@ -1,0 +1,25 @@
+.tasks-container {
+    padding: 40px;
+    background: #f5f7fa;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.tasks-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* REMOVE extra background feel */
+.tasks-form {
+    margin-bottom: 30px;
+}
+
+/* list layout */
+.tasks-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

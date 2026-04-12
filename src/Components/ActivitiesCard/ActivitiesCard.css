@@ -1,0 +1,63 @@
+.activity-card {
+    background: white;
+    padding: 20px;
+    width: 240px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.activity-card:hover {
+    transform: translateY(-5px);
+}
+
+.activity-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.activity-category {
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.activity-status {
+    margin-bottom: 10px;
+}
+
+/* buttons container */
+.activity-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* delete button */
+.delete-btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #ff4d4d;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #e60000;
+}
+
+/* favorite button */
+.fav-btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.fav-btn:hover {
+    background: #2e7d32;
+}
